@@ -54,3 +54,68 @@ nav a{
 nav a:hover{
   color: var(--accent-color);
 }
+
+
+.secction-box{
+  width: 80%;
+  background-color: whitesmoke;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 20px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+
+.secction-box h2{
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 2em;
+  width: 100%;
+}
+
+.secction-box p{
+  color: var(--text-color);
+}
+
+.miembro-card{
+  width: 250px;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: var(--background-color);
+  transition: all .3s;
+  position: relative;
+}
+
+.miembro-card img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: all .3s;
+}
+
+.miembro-card h3{
+  color: var(--primary-color);
+}
+
+.miembro-card span{
+  color: var(--secondary-color);
+  margin: 0 10px 20px;
+  text-align: center;
+}
+
+.miembro-card:hover{
+  transform: scale(1.02) translateY(-10px);
+  box-shadow: 0 5px 30px rgba(74, 78, 105, .5);
+}
+
+
+.miembro-card img:hover{
+  transform: scale(1.1);
+}
