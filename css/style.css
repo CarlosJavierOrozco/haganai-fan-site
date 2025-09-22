@@ -91,7 +91,7 @@ nav a:hover{
   background-color: var(--background-color);
   transition: all .3s;
   position: relative;
-  
+
 }
 
 .miembro-card img{
@@ -128,4 +128,19 @@ footer{
   justify-content: center;
   align-items: center;
   color: whitesmoke;
+}
+
+
+/* medias moviles */
+
+
+@media screen and (max-width: 480px){
+
+  nav ul{
+  gap: 5px;
+
+  }
+
+
+
 }
